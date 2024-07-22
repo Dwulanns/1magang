@@ -1,0 +1,106 @@
+/* CSS Styles */
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bg-dark {
+    background-color: #333 !important; /* Ubah warna background menjadi gelap */
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    background: #5EDFFF;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #000;
+    margin-top: 15px;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    /* Make navbar links dark */
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #000;
+    /* Make navbar brand dark */
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: left;
+        /* Align text to the left */
+        background: rgba(0, 0, 0, 0.5); /* Background gelap di belakang navbar pada layar kecil */
+    }
+
+    .navbar-nav a {
+        color: #000; /* Warna teks putih untuk link navbar pada layar kecil */
+    }
+
+    .carousel-caption {
+        bottom: 165px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 1rem;
+}
